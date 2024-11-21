@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoiceNote - Simplifiez votre vie</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #e8f5e9, #c8e6c9);
+            color: #222;
+        }
+        header {
+            position: relative;
+            text-align: center;
+            color: white;
+            padding: 0;
+        }
+        header img {
+            width: 100%;
+            height: auto;
+            max-height: 450px; /* Ensure the banner does not become too large */
+            object-fit: cover; /* Maintain a good aspect ratio without distorting the image */
+            border-radius: 0 0 20px 20px;
+        }
+        header h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -70%);
+            font-size: 3.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        header p {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -70%);
+            font-size: 1.5em;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+        }
+        .cta {
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -70%);
+            text-align: center;
+        }
+        .cta a {
+            text-decoration: none;
+        }
+        .cta button {
+            background-color: #25D366;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            border-radius: 30px;
+            cursor: pointer;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .cta button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+        }
+        .container {
+            width: 75%;
+            margin: 30px auto;
+        }
+        section {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+        .section-illustration {
+            flex: 0.8;
+            text-align: center;
+        }
+        .section-illustration img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .section-content {
+            flex: 2.2;
+            padding-left: 20px;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        section p, section ul {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #25D366;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="banner.jpg" alt="VoiceNote Banner">
+        <h1>VoiceNote</h1>
+        <p>Transformez vos notes vocales en actions concrètes</p>
+        <div class="cta" style="position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%);">
+            <a href="https://wa.me/33744961633?text=Salut-VoiceNote">
+                <button>Essayez VoiceNote maintenant</button>
+            </a>
+        </div>
+    </header>
+    <div class="container">
+        <section>
+            <div class="section-illustration">
+                <img src="gain-de-temps.jpg" alt="Gain de Temps">
+            </div>
+            <div class="section-content">
+                <h2>Gagnez du temps. Allégez votre charge mentale.</h2>
+                <p>VoiceNote est votre assistant vocal intégré à WhatsApp. Que vous soyez en pleine action ou en déplacement, laissez une note vocale, et laissez-nous nous occuper du reste. Résumé, rappel ou email prêt à l’emploi : VoiceNote est là pour vous simplifier la vie, gratuitement et en toute simplicité.</p>
+            </div>
+        </section>
+        <section>
+            <div class="section-illustration">
+                <img src="comment-ca-marche.jpg" alt="Comment ça marche">
+            </div>
+            <div class="section-content">
+                <h2>Comment ça marche ?</h2>
+                <p>1. Ajoutez VoiceNote à vos contacts WhatsApp</p>
+                <p>➡️ Numéro : <strong><a href="https://wa.me/33744961633?text=Salut-VoiceNote" style="color:#25D366;">+33 7 44 96 16 33</a></strong></p>
+                <p>2. Envoyez une note vocale</p>
+                <p>Parlez librement : une idée, une tâche, un rappel ou même une to-do list.</p>
+                <p>3. Recevez une réponse instantanée :</p>
+                <ul>
+                    <li>Un résumé clair dans votre conversation WhatsApp.</li>
+                    <li>Un email si vous avez partagé votre adresse avec VoiceNote.</li>
+                    <li>Un lien pour ajouter un événement dans votre agenda.</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="section-illustration">
+                <img src="quotidien-change.jpg" alt="Pourquoi VoiceNote">
+            </div>
+            <div class="section-content">
+                <h2>Pourquoi VoiceNote va changer votre quotidien ?</h2>
+                <p>- Pas besoin d'une nouvelle application : Utilisez simplement WhatsApp.</p>
+                <p>- Toujours à portée de main : Votre assistant vocal 24/7.</p>
+                <p>- Adapté à tous vos besoins : Pro ou perso, VoiceNote s’adapte.</p>
+                <p>- Confidentialité garantie : Vos données sont sécurisées, aucun partage non autorisé.</p>
+                <p>- 100% gratuit : Oui, c’est aussi simple que ça.</p>
+            </div>
+        </section>
+        <section>
+            <div class="section-illustration">
+                <img src="exemples-illustration.png" alt="Exemples d'utilisation">
+            </div>
+            <div class="section-content">
+                <h2>Exemples d'utilisation de VoiceNote</h2>
+                <ul>
+                    <li><strong>Rappel de tâches :</strong> Dites "Pour la fête de samedi prochain il faut que je pense à acheter tout ce qu'il faut pour l'apéro ce jeudi soir, mais pour le frais je dois demander à Quentin d'y penser au dernier moment, il faut aussi que je mette un message à Y et que je prévienne les voisins.", et recevez un todo par email.</li>
+                    <li><strong>Planification d'événements :</strong> Dites "Il me faut un rappel dans mon calendrier pour le RDV de demain matin, disons 8h avec Marie pour parler des photos du mariage." et VoiceNote ajoutera l'événement à votre agenda avec les détails évoqués.</li>
+                    <li><strong>Suivi des idées :</strong> Dites "J'ai pensé à plein d'idées pour l'atelier avec les enfants le weekend prochains, on pourrait faire ... ", et recevez un résumé structué par email.</li>
+                    <li><strong>Préparation d'emails :</strong> Dites "Il faut que je pense à envoyer un email à Laurent pour lui demander ce qu'il capte bien chez Orange au boulot, parce que je vais devoir changer", et recevez un email qu'il vous suffira de lui transférer.</li>
+                    <li><strong>Gestion de projets :</strong> Dites "Pour la réunion de demain, on en est ICI et on voudrait faire XXX", et recevez un ordre du jour clair.</li>
+                    <li><strong>Coordination d'équipe :</strong> Dites "Pour la répartition des roles dans l'assiciation, j'ai pensé à ...", et VoiceNote vous synthétise votre réflexion dans un email.</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>Pour nous contacter : <a href="https://wa.me/33744961633?text=Salut-VoiceNote" style="color:white;">+33 7 44 96 16 33</a></p>
+        &copy; 2024 VoiceNote. Simplifiez votre quotidien.
+    </footer>
+</body>
+</html>
